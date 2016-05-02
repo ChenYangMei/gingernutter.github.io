@@ -1,2 +1,3 @@
-body {background-color: brown}
-h1, p {color: white}
+body {background-color: #291405}
+h1, p {color: white; background-color: #291405}
+h1 {position: center}
