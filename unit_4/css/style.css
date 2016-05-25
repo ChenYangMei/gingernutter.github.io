@@ -10,24 +10,15 @@ body {
 	color: #4c4c43;
 	font-family: 'Roboto Slab', serif;
 	line-height: 1.5em;
+	margin:0;
 }
 
 #logospecial {
-	width: 250px;
-	margin: 0px;
-	padding: 0px 20px 0px 20px; 
-	border-style: solid;
-	border-width: thin;
 	line-height: 1.5em;
 	text-align: center;
 }
 
 #reviews {
-	width: 250px;
-	margin: 0px;
-	padding: 20px;
-	border-style: solid;
-	border-width: thin;
 	line-height: 1.5em;
 	text-align: left;
 	font-size: 0.8em;
@@ -36,20 +27,23 @@ body {
 
 #left{
 	float: left;
+	width: 250px;
+	margin-left: 80px;
+	padding: 0px 20px 0px 20px;
 }
 
 #right{
 	width: 1000px;
-	margin-right: 100px;
 	position: relative;
 	float: right;
 }
 
 #booking{
 	text-align: center;
-	padding: 30px 0px 30px 0px;
+	padding: 50px 0px 50px 0px;
 	font-family: 'Montserrat Subrayada', sans-serif;
-	color: 
+	color: #a71a10;
+	font-size: 2em;
 }
 
 h1 {
