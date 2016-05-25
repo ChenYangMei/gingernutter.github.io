@@ -1,14 +1,48 @@
-body {background-color: #eae6de; color: #4c4c43; padding-left: 200px; padding-right: 200px}
+@import url(https://fonts.googleapis.com/css?family=Francois+One);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,600);
+
+
+body {background-color: #eae6de; color: #4c4c43;}
 
 #slogan {text-align: center; font-family: helvetica, impact, sans-serif; font-style: italic; font-weight: bold;}
 
-h1 {text-align: center; font-family: impact, helvetica, sans-serif; font-weight: black; color: #b88e0e; font-size: 3em}
+h1 {
+	text-align: center; 
+	font-family: 'Francois One', 'Exo 2',sans-serif; 
+	font-weight: black; 
+	color: #b88e0e; 
+    }
 
-.special {font-family: helvetica, sans-serif; text-align: center; color: #b88e0e}
+#logo.special {
+	padding: 50px;
 
-ul {text-align: center;
-    list-style-type: none;}
+}
 
-em {font-weight: bold;}
+.special {
+	font-family: helvetica, sans-serif; 
+	text-align: center; 
+	color: #b88e0e
+         }
 
-p {font-family: "times new roman", serif; font-weight: 300;}
+ul {
+	text-align: center;
+    list-style-type: none;
+    }
+
+em {
+	font-weight: bold;
+   }
+
+p {
+	font-family: "times new roman", serif; 
+	font-weight: 300;
+    }
+
+nav {
+	text-align: right;
+	margin-top: 0;
+    }
+
+nav a {
+	color: black;
+     }
