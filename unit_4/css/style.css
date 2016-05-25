@@ -6,6 +6,8 @@
 
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
 
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,700);
+
 
 body {
 	background-color: #eae6de; 
@@ -26,7 +28,7 @@ body {
 #reviews {
 	line-height: 1.5em;
 	text-align: left;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-weight: 100;
 	margin-left: 80px;
 	padding: 0px 20px 0px 20px;
@@ -34,12 +36,17 @@ body {
 	font-family: 'Indie Flower', cursive;
 	border-style: solid;
 	border-width: thin;
+	line-height: 1.2em;
 }
 
 #left{
 	float: left;
+}
 
-	
+#slogan{
+	font-family: 'Lobster Two', cursive;
+	font-size: 1.2em;
+	font-weight: normal;
 }
 
 #right{
@@ -57,7 +64,7 @@ body {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 2.5em;
 	line-height: 1em;
 	color: #b88e0e;
 	font-weight: bold;
