@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300);
-@import url(https://fonts.googleapis.com/css?family=Montserrat+Subrayada:400,700);
 * { margin:0; padding:0; box-sizing:border-box; }
 
 body {
@@ -36,6 +35,7 @@ aside{
 	margin-top: 30px;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.2em;
+	border-radius: 8px;
 
 }
 #reviews {
@@ -53,12 +53,14 @@ aside{
 
 #booking a{
 	text-align: center;
-	padding: 5px 20px;
+	padding: 15px 50px;
 	font-size: 1.5em;
 	background-color: #eaceaa;
 	text-decoration: none;
 	color: #4b4747;
 	margin: 150px, 300px;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 10px;
 }
 #booking{
 	text-align: center;
