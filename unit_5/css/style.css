@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #eae6de; 
+	color: #4c4c43;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.5;
+}
+nav {
+	text-align: right;
+	margin: 15px;
+	background-color: #E8C66A;
+	padding: 20px;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	margin: 1em;
+	padding: 1em;
+}
+aside{
+	float: left;
+	background-color: gray;
+	text-align: center;
+	margin: 0px 70px 20px 70px;
+	width: 250px;
+	background-color: #FFC675;
+}
+#slogan{
+	font-size: 1.1em;
+	padding: 5px 0px;
+	margin-bottom: 50px;
+}
+#menu {
+	color: #5b2c12;
+	font-size: .9em;
+	line-height: 2;
+	padding:15px 0px;
+	background-color: #FFE2B8;
+	margin:20px;
+}
+#menu a {
+	text-decoration: none;
+	color: #4b4747;
+	background-color: #eaceaa;
+	padding:5px 30px; 
+	margin-top: 30px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	border-radius: 8px;
+}
+article{
+	position: relative;
+}
+img{
+	margin: 0 auto;
+}
+footer{
+	background-color: #FF957E;
+	text-align: center;
+	padding: 10px 0;
+	margin-top: 70px;
+}
+#booking a{
+	text-align: center;
+	padding: 15px 50px;
+	font-size: 1.5em;
+	background-color: #eaceaa;
+	text-decoration: none;
+	color: #4b4747;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 10px;
+}
+#booking{
+	text-align: center;
+	margin:20px;
+}
+h1 {
+	font-size: 2.5em;
+	line-height: 1em;
+	color: #b88e0e;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif; 
+	padding: 5px 0px;
+}
+em {
+	font-weight: bold;
+	font-size: 1.1em;
+}
