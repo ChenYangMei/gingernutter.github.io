@@ -16,9 +16,6 @@ header{
 	float: left;
 	margin: 1em 0em .5em 3em;
 }
-#logopic {
-	max-width: 100%;
-}
 nav {
 	float: right;
 	margin: 2em 3em .5em 3em;
@@ -26,6 +23,7 @@ nav {
 }
 nav a {
 	color: black;
+	display:inline-block;
 	text-decoration: none;
 	margin: 1em;
 	padding: 1em;
@@ -33,19 +31,18 @@ nav a {
 nav a:hover{
 	color: #b88e0e;
 }
-section{
-	clear: both;
+main {
 	background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 1.5em;
+	border: 1px black solid;
+	padding: 1.5em;
 }
-aside{
+#menublock {
 	float: left;
 	text-align: center;
 	padding: 2.5em;
 	width: 25%;
 	background-color: #E582A2;
-    border: 1px black solid;
+	border: 1px black solid;
 }
 #slogan{
 	font-size: 1.1em;
@@ -60,47 +57,28 @@ aside{
 	border: solid thin black;
 	padding: 2em 1em;
 }
-#menu a {
+.cta {
 	text-decoration: none;
 	color: #4b4747;
 	background-color: #eaceaa;
-	font: 1.2em 'PT Sans', sans-serif;
-	border-radius: 8px;
+	font: 1.25em 'PT Sans', sans-serif;
+	border-radius: .5em;
 	padding: .5em 1em;
+	display:inline-block;
 }
-#menu a:hover{
-	color: #b88e0e;
-}
-article{
-	float: right;
-	width: 75%;
-	background-color: #E55B88;
-    border: 1px black solid;
-    padding: 0em 2em;
-}
-#main {
-	padding: 0em 2em;
-}
-#dogpic{
-	max-width: 100%;
-	margin: 0 auto;
-}
-#booking a{
-	text-align: center;
-	padding: .4em 1.5em;
-	font-size: 1.5em;
-	background-color: #eaceaa;
-	text-decoration: none;
-	color: #4b4747;
-	font-family: 'PT Sans', sans-serif;
-	border-radius: 10px;
-}
-#booking a:hover{
+.cta:hover{
 	color: #b88e0e;
 }
 #booking{
-	text-align: center;
-	margin: .8em;
+	float: right;
+	width: 75%;
+	background-color: #E55B88;
+   	border: 1px black solid;
+	padding: 0em 2em;
+	text-align:center;
+}
+#dogpic {
+	width:100%;
 }
 footer{
 	text-align: center;
