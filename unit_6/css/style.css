@@ -8,9 +8,6 @@ body {
 	font-family: 'Roboto Slab', serif;
 	line-height: 1.5;
 }
-header{
-	background-color: #FFED74;
-}
 #logo {
 	width: 15%;
 	float: left;
@@ -18,30 +15,22 @@ header{
 }
 nav {
 	float: right;
-	margin: 2em 3em .5em 3em;
-	background-color: #E8C66A
 }
 nav a {
 	color: black;
 	display:inline-block;
 	text-decoration: none;
-	margin: 1em;
+	margin: .5em 1em;
 	padding: 1em;
 }
 nav a:hover{
 	color: #b88e0e;
 }
-main {
-	background-color: #FFB7CF;
-	border: 1px black solid;
-	padding: 1.5em;
-}
 #menublock {
 	float: left;
 	text-align: center;
-	padding: 2.5em;
+	padding: 2em 2.5em;
 	width: 25%;
-	background-color: #E582A2;
 	border: 1px black solid;
 }
 #slogan{
@@ -55,7 +44,7 @@ main {
 	font-size: .9em;
 	line-height: 2;
 	border: solid thin black;
-	padding: 2em 1em;
+	padding: 3.5em 1em;
 }
 .cta {
 	text-decoration: none;
@@ -72,7 +61,6 @@ main {
 #booking{
 	float: right;
 	width: 75%;
-	background-color: #E55B88;
    	border: 1px black solid;
 	padding: 0em 2em;
 	text-align:center;
@@ -86,7 +74,6 @@ footer{
 	margin-top: 1em;
 	clear: both;
 	font-size: .8em;
-	background-color: #FF957E
 }
 h1 {
 	font-size: 2.5em;
