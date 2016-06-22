@@ -168,11 +168,12 @@ em {
     #menublock{
     	float: none;
     	margin: 0 auto;
-    	width: 395px;
+    	width: 70%;
+    	min-width: 350px;
     	padding: 0 1em;
     }
     #slogan{
-    	padding: 0 1em 1em 1em;
+    	padding: 0 2em 2em 2em;
     }
     #booking{
     	width: 80%;
