@@ -133,6 +133,8 @@ em {
     #menublock{
     	float: none;
     	margin: 0 auto;
+    	width: 100%;
+    	padding: 0 1em;
     }
     #slogan{
     	padding: 0 1em 1em 1em;
