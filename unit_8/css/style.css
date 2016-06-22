@@ -126,7 +126,7 @@ em {
     	text-align: center;
     }
     nav a{
-    	margin: .2em;
+    	margin: 0;
     	font-size: 15px;
     	float: none;
     }
