@@ -128,7 +128,7 @@ em {
     nav a{
     	margin: 0;
     	font-size: 15px;
-    	float: none;
+    	padding: 1.5em .2em;
     }
     #menublock{
     	float: none;
