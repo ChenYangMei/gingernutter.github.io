@@ -12,13 +12,13 @@
 		<nav class="first">
 			<a href="about.html">About Us</a>|
 	    		<a href="#">Gallery</a>|
-	    		<a href="#">Reviews</a>|
+	    		<a href="reviews.html">Reviews</a>|
 	    		<a href="#">Contact</a>
 		</nav>
 		<nav class="second">
 			<a href="about.html">About Us</a>
 	    		<a href="#">Gallery</a>
-	    		<a href="#">Reviews</a>
+	    		<a href="reviews.html">Reviews</a>
 	    		<a href="#">Contact</a>
 		</nav>
 	</header>
@@ -32,8 +32,34 @@
 
 	<main class="clearfix">
 		<section id="booking">
-	    		<img src="images/dogcafe.jpg" alt="A dog at a cafe" id="dogpic">
-        		<a href="mailto:yangmei.chen2011@gmail.com" class="cta">Make a Booking</a>
+			<div id="slideshow" style="max-width:100%; position:relative; margin-bottom: 1em;">
+	    		<img class="slides" src="images/dogcafe.jpg" alt="A dog at a cafe">
+	    		<img class="slides" src="images/dogcafe1.png">
+				<img class="slides" src="images/dogcafe2.jpg">
+				<a class="w3-btn-floating" style="position:absolute;top:45%;left:0;font-size: 2em; cursor: pointer; color: #725e43" onclick="plusDivs(-1)">&#10094;</a>
+				<a class="w3-btn-floating" style="position:absolute;top:45%;right:0; font-size: 2em; cursor: pointer; color: #725e43" onclick="plusDivs(1)">&#10095;</a>
+			</div>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+  			showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+  			var i;
+  			var x = document.getElementsByClassName("slides");
+  			if (n > x.length) {slideIndex = 1}
+ 			if (n < 1) {slideIndex = x.length}
+  			for (i = 0; i < x.length; i++) {
+     		x[i].style.display = "none";
+  			}
+  			x[slideIndex-1].style.display = "block";
+			}
+		</script>
+
+        	<a href="mailto:yangmei.chen2011@gmail.com" class="cta">Make a Booking</a>
 		</section>
 		
 		<section id="menublock">
@@ -42,7 +68,7 @@
 				<h2>Our Specials</h2>
 				<p><em>Ricotta Pancakes $12 </em><br>Berry compote | banana icecream</p>
 				<p><em>Stuffed Mushrooms $11</em><br>Field mushrooms | poached eggs | asparagus | toasted sourdough</p>
-				<p><em>Egg & Bacon Burger $14.5 </em><br> Fried eggs | double smoked bacon | tomato chutney | milk bun</p><br>
+				<p><em>Egg &amp; Bacon Burger $14.5 </em><br> Fried eggs | double smoked bacon | tomato chutney | milk bun</p><br>
 				<a href="#" class="cta">Full Menu</a>
 			</div>
 			<div id="social">
@@ -55,7 +81,7 @@
 	</main>
 	<footer>
 		
-		<p>&copy; Ginger & Oreo Teahouse created by Yangmei Chen 2016</p>
+		<p>&copy; Ginger &amp; Oreo Teahouse created by Yangmei Chen 2016</p>
 	</footer>
 </body>
 </html>

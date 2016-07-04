@@ -52,7 +52,6 @@ nav a:hover{
 	border-radius: .5em;
 	border: solid thin;
 	padding: .5em 1em;
-	display:inline-block;
 }
 .cta:hover{
 	color: black;
@@ -63,9 +62,20 @@ nav a:hover{
 	padding: 2% 3% 2% 0;
 	text-align:center;
 }
-#dogpic {
+.slides{
 	width:100%;
 	margin: 0 auto;
+}
+.screen{
+	width: 100%;
+	padding: 3em 5em;
+	border: groove thick rgba(145,96,18,.5);
+	margin: 0 0 2em 0;
+	font-size: 1.2em;
+	text-align: left;
+}
+h3{
+	text-align: center;
 }
 footer{
 	text-align: center;
@@ -149,6 +159,10 @@ em {
     	float: none;
     	margin: 0 auto;
     }
+    .screen{
+    	padding: 3em 2em;
+    	font-size: 1.2em;
+    }
 
 }
 
@@ -197,6 +211,10 @@ em {
     }
     footer{
     	font-size: .6em;
+    }
+    .screen{
+    	padding: 1.5em 1.2em;
+    	font-size: 1em;
     }
     
 }
