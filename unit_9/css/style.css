@@ -209,10 +209,9 @@ em {
 @media (max-width: 450px) {
 	#logo {
 		width: 200px;
-		margin: 0 auto;
 		display: inline-block;
 		float: right;
-		padding: 1em 1em 0 1em;
+		padding: 0 1em;
     }
 
     #menupic{
@@ -225,7 +224,6 @@ em {
     	display: none;
     }
     nav{
-    	clear: both;
     	float: none;
     	display: none;
     	text-align: left;
