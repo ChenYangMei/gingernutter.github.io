@@ -8,7 +8,7 @@
 <body>
 	<header class="clearfix" class="desktop">
 		<img id="menupic" src="images/menu-alt-512.png">
-		<img src="images/logo.png" alt="logo" id="logo">
+		<a href="index.html"><img src="images/logo.png" alt="logo" id="logo"></a>
 		<nav class="first">
 			<a href="about.html">About Us</a>|
 	    		<a href="menu.html">Menu</a>|
@@ -32,33 +32,20 @@
 
 	<main class="clearfix">
 		<section id="booking">
-			<div id="slideshow" style="max-width:100%; position:relative; margin-bottom: 1em;">
-	    		<img class="slides" src="images/dogcafe.jpg" alt="A dog at a cafe">
-	    		<img class="slides" src="images/dogcafe1.png">
-				<img class="slides" src="images/dogcafe2.jpg">
-				<a class="w3-btn-floating" style="position:absolute;top:45%;left:0;font-size: 2em; cursor: pointer; color: #725e43" onclick="plusDivs(-1)">&#10094;</a>
-				<a class="w3-btn-floating" style="position:absolute;top:45%;right:0; font-size: 2em; cursor: pointer; color: #725e43" onclick="plusDivs(1)">&#10095;</a>
-			</div>
-		<script>
-			var slideIndex = 1;
-			showDivs(slideIndex);
-
-			function plusDivs(n) {
-  			showDivs(slideIndex += n);
-			}
-
-			function showDivs(n) {
-  			var i;
-  			var x = document.getElementsByClassName("slides");
-  			if (n > x.length) {slideIndex = 1}
- 			if (n < 1) {slideIndex = x.length}
-  			for (i = 0; i < x.length; i++) {
-     		x[i].style.display = "none";
-  			}
-  			x[slideIndex-1].style.display = "block";
-			}
-		</script>
-
+	    	<div class="clearfix" id="screen">
+	    		<h3>~Menu~</h3>
+	    		<br>
+	    		<div class="menu1">
+	    			<p><em>Ricotta Pancakes</em>Berry compote | banana icecream  $12</p>
+					<p><em>Stuffed Mushrooms</em>Field mushrooms | poached eggs | asparagus | toasted sourdough  $11</p>
+					<p><em>Egg &amp; Bacon Burger</em> Fried eggs | double smoked bacon | tomato chutney | milk bun  $14.5</p><br>
+				</div>
+				<div class="menu2">
+					<p><em>Ricotta Pancakes</em>Berry compote | banana icecream  $12</p>
+					<p><em>Stuffed Mushrooms</em>Field mushrooms | poached eggs | asparagus | toasted sourdough  $11</p>
+					<p><em>Egg &amp; Bacon Burger</em> Fried eggs | double smoked bacon | tomato chutney | milk bun  $14.5</p><br>
+				</div>
+   			</div>
         	<a href="mailto:yangmei.chen2011@gmail.com" class="cta">Make a Booking</a>
 		</section>
 		
@@ -81,7 +68,9 @@
 	</main>
 	<footer>
 		
-		<p>&copy; Ginger &amp; Oreo Teahouse created by Yangmei Chen 2016</p>
+		<p>&copy; Ginger & Oreo Teahouse created by Yangmei Chen 2016</p>
 	</footer>
 </body>
 </html>
+
+   
