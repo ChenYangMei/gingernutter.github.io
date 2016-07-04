@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ginger and Oreo Tea House</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header class="clearfix" class="desktop">
+		<img id="menupic" src="images/menu-alt-512.png">
+		<img src="images/logo.png" alt="logo" id="logo">
+		<nav class="first">
+			<a href="about.html">About Us</a>|
+	    		<a href="#">Gallery</a>|
+	    		<a href="#">Reviews</a>|
+	    		<a href="#">Contact</a>
+		</nav>
+		<nav class="second">
+			<a href="about.html">About Us</a>
+	    		<a href="#">Gallery</a>
+	    		<a href="#">Reviews</a>
+	    		<a href="#">Contact</a>
+		</nav>
+	</header>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+	<script>
+		$("#menupic").click(function (){
+			$('nav.second').slideToggle();
+		})
+	</script>
+
+	<main class="clearfix">
+		<section id="booking">
+	    		<img src="images/dogcafe.jpg" alt="A dog at a cafe" id="dogpic">
+        		<a href="mailto:yangmei.chen2011@gmail.com" class="cta">Make a Booking</a>
+		</section>
+		
+		<section id="menublock">
+	        	<p id="slogan">A place to relax with your four legged friends.</p>
+			<div class="clearfix" id="menu">
+				<h2>Our Specials</h2>
+				<p><em>Ricotta Pancakes $12 </em><br>Berry compote | banana icecream</p>
+				<p><em>Stuffed Mushrooms $11</em><br>Field mushrooms | poached eggs | asparagus | toasted sourdough</p>
+				<p><em>Egg & Bacon Burger $14.5 </em><br> Fried eggs | double smoked bacon | tomato chutney | milk bun</p><br>
+				<a href="#" class="cta">Full Menu</a>
+			</div>
+			<div id="social">
+				<a href="#"><img class="icon" src="images/facebook.png"></a>
+				<a href="#"><img class="icon" src="images/twitter.png"></a>
+				<a href="#"><img class="icon" src="images/instagram.jpeg"></a>
+				<a href="#"><img class="icon" src="images/tripadvisor.jpg"></a>
+			</div>
+		</section>
+	</main>
+	<footer>
+		
+		<p>&copy; Ginger & Oreo Teahouse created by Yangmei Chen 2016</p>
+	</footer>
+</body>
+</html>
